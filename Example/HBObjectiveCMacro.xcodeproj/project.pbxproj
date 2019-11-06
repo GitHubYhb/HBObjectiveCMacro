@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2AEA57079848A771CFC5065E /* HBObjectiveCMacro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HBObjectiveCMacro.podspec; path = ../HBObjectiveCMacro.podspec; sourceTree = "<group>"; };
+		2AEA57079848A771CFC5065E /* HBObjectiveCMacro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HBObjectiveCMacro.podspec; path = ../HBObjectiveCMacro.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		542AC8A4C849A67CE7447EFF /* Pods-HBObjectiveCMacro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBObjectiveCMacro_Example.release.xcconfig"; path = "Target Support Files/Pods-HBObjectiveCMacro_Example/Pods-HBObjectiveCMacro_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HBObjectiveCMacro_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBObjectiveCMacro_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,13 +59,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83F69927289969BAC3AD5307 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83F69927289969BAC3AD5307 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D210E94BA2202FD6D76C1AB /* Pods-HBObjectiveCMacro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBObjectiveCMacro_Tests.release.xcconfig"; path = "Target Support Files/Pods-HBObjectiveCMacro_Tests/Pods-HBObjectiveCMacro_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		912259C0B92DAC5BCEA5BB63 /* Pods-HBObjectiveCMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBObjectiveCMacro_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HBObjectiveCMacro_Tests/Pods-HBObjectiveCMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		941C2283BB329789C0415AB2 /* Pods_HBObjectiveCMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBObjectiveCMacro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FF650EB0FD6C4B6CACD89E /* Pods_HBObjectiveCMacro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBObjectiveCMacro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3C6E7D64DE2892CCD87CC10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F3C6E7D64DE2892CCD87CC10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F746CC86B0BD5FA816E63814 /* Pods-HBObjectiveCMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBObjectiveCMacro_Example.debug.xcconfig"; path = "Target Support Files/Pods-HBObjectiveCMacro_Example/Pods-HBObjectiveCMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				912259C0B92DAC5BCEA5BB63 /* Pods-HBObjectiveCMacro_Tests.debug.xcconfig */,
 				8D210E94BA2202FD6D76C1AB /* Pods-HBObjectiveCMacro_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

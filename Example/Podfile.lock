@@ -1,0 +1,16 @@
+PODS:
+  - HBObjectiveCMacro (0.1.0)
+
+DEPENDENCIES:
+  - HBObjectiveCMacro (from `../`)
+
+EXTERNAL SOURCES:
+  HBObjectiveCMacro:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBObjectiveCMacro: 8c9b9146cea1c8a235b2d8615365596eb6f1bf67
+
+PODFILE CHECKSUM: 2ed1c804ebf8d9da7c9c71c1c5952ce620325aba
+
+COCOAPODS: 1.8.4

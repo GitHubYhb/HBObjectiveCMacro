@@ -1,0 +1,6 @@
+framework module HBObjectiveCMacro {
+  umbrella header "HBObjectiveCMacro-umbrella.h"
+
+  export *
+  module * { export * }
+}

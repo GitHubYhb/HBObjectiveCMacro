@@ -1,0 +1,6 @@
+framework module Pods_HBObjectiveCMacro_Example {
+  umbrella header "Pods-HBObjectiveCMacro_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
